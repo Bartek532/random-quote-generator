@@ -21,7 +21,7 @@ export const Quote = () => {
     return <Loader />;
   }
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} data-testid="quote">
       <div className={styles.quote} style={{ backgroundColor: "#" + color }}>
         <p className={styles.text}>{quote.content}</p>
         <div className={styles.footer}>
@@ -32,6 +32,7 @@ export const Quote = () => {
             target="blank"
             rel="noreferrer"
           >
+            <span className="sr-only">share on twitter</span>
             <TwitterIcon />
           </a>
         </div>
