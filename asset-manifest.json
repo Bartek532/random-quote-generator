@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/random-quote-generator/static/css/main.5eb8a140.chunk.css",
+    "main.css": "/random-quote-generator/static/css/main.ce9388cc.chunk.css",
     "main.js": "/random-quote-generator/static/js/main.b83c109e.chunk.js",
     "main.js.map": "/random-quote-generator/static/js/main.b83c109e.chunk.js.map",
     "runtime-main.js": "/random-quote-generator/static/js/runtime-main.51e8ea58.js",
@@ -10,14 +10,14 @@
     "static/js/3.713c7587.chunk.js": "/random-quote-generator/static/js/3.713c7587.chunk.js",
     "static/js/3.713c7587.chunk.js.map": "/random-quote-generator/static/js/3.713c7587.chunk.js.map",
     "index.html": "/random-quote-generator/index.html",
-    "static/css/main.5eb8a140.chunk.css.map": "/random-quote-generator/static/css/main.5eb8a140.chunk.css.map",
+    "static/css/main.ce9388cc.chunk.css.map": "/random-quote-generator/static/css/main.ce9388cc.chunk.css.map",
     "static/js/2.62859fc8.chunk.js.LICENSE.txt": "/random-quote-generator/static/js/2.62859fc8.chunk.js.LICENSE.txt",
     "static/media/twitter.c58a7c59.svg": "/random-quote-generator/static/media/twitter.c58a7c59.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.51e8ea58.js",
     "static/js/2.62859fc8.chunk.js",
-    "static/css/main.5eb8a140.chunk.css",
+    "static/css/main.ce9388cc.chunk.css",
     "static/js/main.b83c109e.chunk.js"
   ]
 }
