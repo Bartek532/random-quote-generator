@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
 
 type Quote = {
   _id: string;
@@ -17,12 +16,11 @@ export const useRandomQuote = () => {
   const fetchNextQuote = async () => {
     setLoading(true);
     try {
-      const { data }: { data: Quote } = await axios.get(
-        "https://api.quotable.io/random"
-      );
-      setQuote(data);
+      const response = await fetch("https://api.quotable.io/random");
+      const quote: Quote = await response.json();
+      setQuote(quote);
     } catch (e) {
-      console.log(e);
+      return;
     } finally {
       setLoading(false);
     }
