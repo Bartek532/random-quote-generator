@@ -1,0 +1,38 @@
+.wrapper {
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem 0 4rem;
+  .quote {
+    border-radius: 10px;
+    color: var(--primary-white);
+    padding: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+
+  .footer {
+    font-size: 1.15rem;
+  }
+
+  .btn {
+    background-color: transparent;
+    font-family: inherit;
+    color: var(--primary-white);
+    border: 1px solid var(--primary-white);
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    margin: 5rem 0;
+
+    &:hover,
+    &:focus {
+      color: var(--primary-bg);
+      background-color: var(--primary-white);
+    }
+  }
+}
