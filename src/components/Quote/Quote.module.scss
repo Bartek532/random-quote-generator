@@ -16,6 +16,12 @@
 
   .footer {
     font-size: 1.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .twitter {
+      margin-right: 0.1rem;
+    }
   }
 
   .btn {

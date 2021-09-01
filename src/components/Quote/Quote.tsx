@@ -1,6 +1,7 @@
 import { useRandomQuote } from "utils/hooks/useRandomQuote";
 import styles from "./Quote.module.scss";
 import { Loader } from "components/Loader/Loader";
+import { ReactComponent as TwitterIcon } from "assets/icons/twitter.svg";
 
 const colorPalette = [
   "ffb703",
@@ -23,7 +24,17 @@ export const Quote = () => {
     <div className={styles.wrapper}>
       <div className={styles.quote} style={{ backgroundColor: "#" + color }}>
         <p className={styles.text}>{quote.content}</p>
-        <div className={styles.footer}>{quote.author}</div>
+        <div className={styles.footer}>
+          {quote.author}
+          <a
+            className={styles.twitter}
+            href={`https://twitter.com/intent/tweet?text=${quote.content}%0A %0A${quote.author}`}
+            target="blank"
+            rel="noreferrer"
+          >
+            <TwitterIcon />
+          </a>
+        </div>
       </div>
       <button className={styles.btn} onClick={fetchNextQuote}>
         next quote
