@@ -15,8 +15,9 @@
       height: 64px;
       margin: 8px;
       border-radius: 50%;
-      border: 6px solid #fff;
-      border-color: #fff transparent #fff transparent;
+      border: 6px solid var(--primary-white);
+      border-color: var(--primary-white) transparent var(--primary-white)
+        transparent;
       animation: loading 0.7s linear infinite;
     }
   }
