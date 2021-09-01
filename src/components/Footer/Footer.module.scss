@@ -1,0 +1,12 @@
+.footer {
+  color: var(--primary-white);
+  margin: 1.5rem 0;
+
+  .link {
+    color: var(--primary-white);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

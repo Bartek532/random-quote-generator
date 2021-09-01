@@ -1,8 +1,12 @@
+import styles from "./Footer.module.scss";
+
 export const Footer = () => {
   return (
-    <footer>
-      Made with love by{" "}
-      <a href="https://github.com/Bartek532">Bartosz Zagrodzki</a>
+    <footer className={styles.footer}>
+      Made with &#128155; by{" "}
+      <a href="https://github.com/Bartek532" className={styles.link}>
+        Bartosz Zagrodzki
+      </a>
     </footer>
   );
 };
